@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-# Sample data for the top 15 NBA players and their ages
+# Sample data for the top 15 NBA players and their ages Bah
 players = [
     "LeBron James", "Stephen Curry", "Kevin Durant", "Giannis Antetokounmpo",
     "Luka Doncic", "Nikola Jokic", "Joel Embiid", "Jayson Tatum", 
@@ -9,16 +9,16 @@ players = [
 ]
 ages = [38, 35, 34, 28, 24, 28, 29, 25, 34, 30, 33, 26, 25, 24, 26]
 
-# Create the scatter plot
+# Create the scatter plot Bah
 plt.figure(figsize=(10, 6))
 plt.scatter(players, ages, color='blue', s=100)
 
-# Add titles and labels
+# Add titles and labels Bah
 plt.title("Ages of Top 15 NBA Players in 2023 Season")
 plt.xlabel("Players")
 plt.ylabel("Ages")
 plt.xticks(rotation=45, ha='right')
 
-# Show the plot
+# Show the plot Bah
 plt.tight_layout()
 plt.show()
